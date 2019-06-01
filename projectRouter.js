@@ -62,7 +62,7 @@ router.delete("/:id", (req, res) => {
           res.status(201).json(removeproject);
         });
       } else {
-        res.status(404).json({ error: err, mesage: "User does not exist" });
+        res.status(404).json({ error: err, message: "User does not exist" });
       }
     })
     .catch(error => {

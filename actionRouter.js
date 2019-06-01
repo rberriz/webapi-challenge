@@ -21,7 +21,7 @@ router.use(express.json())
     .then( action =>{
         res.status(200).json(action)
     }).catch( error => {
-        res.status(500).json({error:{message: "Could't get data"}})
+        res.status(500).json({error:{message: "Couldn't get data"}})
     })
 
 
@@ -52,7 +52,7 @@ router.use(express.json())
                 }
             )
         }else{
-            res.status(404).json({ error: err, mesage : "User does not exist"})
+            res.status(404).json({ error: err, message : "User does not exist"})
         }
     })
     .catch(error =>{
