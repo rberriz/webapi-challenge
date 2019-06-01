@@ -26,13 +26,26 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Express is performing the same functionality as react routes but for backend. I also learned about the purpose of middleware and how it adds functionality to endpoints.
+
+
 - [ ] Describe Middleware?
+
+Middleware is sel-created or third party libraries that add fuctionality to our end points
 
 - [ ] Describe a Resource?
 
+Anything that we can call upon using our crud operators.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+status updates
+
 - [ ] How can we partition our application into sub-applications?
+
+Divide the app into various files and routes. 
+
+
 
 ## Project Setup
 
